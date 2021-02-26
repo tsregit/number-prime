@@ -1,0 +1,30 @@
+{
+  "name": "numeros-primos",
+  "version": "1.0.0",
+  "description": "Project in node to calculate prime numbers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "standard && node index.js",
+    "dev-fix": "standard --fix && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsregit/number-prime.git"
+  },
+  "keywords": [
+    "Number Prime",
+    "Node Project",
+    "Test"
+  ],
+  "author": "Tomas R",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "prompt": "^1.1.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "standard": "*"
+  }
+}
